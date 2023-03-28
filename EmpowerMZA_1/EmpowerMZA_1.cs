@@ -78,7 +78,7 @@ namespace EmpowerMZA_1
 				engine.GenerateInformation(element.Name);
 			}
 
-			var order = OrderFactory.CreateOrder("Order 1");
+			var order = OrderFactory.CreateOrder("Elixir");
 			order.Dispatch("Marek Zak");
 		}
 	}
